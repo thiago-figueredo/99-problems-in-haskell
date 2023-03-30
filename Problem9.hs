@@ -1,3 +1,5 @@
+module Problem9 (pack) where
+
 pack :: Eq a => [a] -> [[a]]
 pack = foldr helper []
   where
