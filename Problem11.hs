@@ -1,3 +1,5 @@
+module Problem11 (Element (..)) where
+
 import Problem9 (pack)
 
 data Element a = Multiple Int a | Single a deriving (Show)
